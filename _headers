@@ -1,0 +1,72 @@
+# Headers para GitHub Pages - Luis Antonio Canales Guerrero
+# Configuración para mejorar la indexación en Google Search Console
+
+# Headers para archivos CSS
+/*.css
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000
+  Content-Type: text/css; charset=utf-8
+
+# Headers para archivos JavaScript
+/*.js
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000
+  Content-Type: application/javascript; charset=utf-8
+
+# Headers para imágenes PNG
+/*.png
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000
+  Content-Type: image/png
+
+# Headers para imágenes JPG/JPEG
+/*.jpg
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000
+  Content-Type: image/jpeg
+
+/*.jpeg
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000
+  Content-Type: image/jpeg
+
+# Headers para imágenes GIF
+/*.gif
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000
+  Content-Type: image/gif
+
+# Headers para imágenes WebP
+/*.webp
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000
+  Content-Type: image/webp
+
+# Headers para archivos HTML
+/*.html
+  Cache-Control: public, max-age=3600
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block
+
+# Headers para archivos XML (sitemaps)
+/*.xml
+  Content-Type: application/xml; charset=utf-8
+  Cache-Control: public, max-age=86400
+
+# Headers específicos para robots.txt
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=86400
+
+# Headers para archivos de verificación de Google
+/google*.html
+  Content-Type: text/html; charset=utf-8
+  Cache-Control: public, max-age=86400
+
+# Headers para el archivo principal
+/index.html
+  Cache-Control: public, max-age=3600
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block

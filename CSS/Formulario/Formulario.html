@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Formulario Accesible</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+
+<body>
+    <form class="formulario" aria-label="Formulario de acceso">
+        <label for="email">Correo electrónico</label>
+        <input class="formulario_input" type="email" id="email" name="email" placeholder="email" required autocomplete="email">
+        <label for="password">Contraseña</label>
+        <input class="formulario_input" type="password" id="password" name="password" placeholder="contraseña" required autocomplete="current-password">
+        <input class="formulario_input formulario_submit" type="submit" value="Ingresar" aria-label="Enviar formulario">
+    </form>
+</body>
+
+</html>

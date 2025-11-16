@@ -1,0 +1,62 @@
+User-agent: *
+Allow: /
+
+# Permitir acceso a imágenes para Google Images
+Allow: /img/
+Allow: /img/*.png
+Allow: /img/*.jpg
+Allow: /img/*.jpeg
+Allow: /img/*.gif
+Allow: /img/*.webp
+
+# Sitemap
+Sitemap: https://luisantonio3005.github.io/Pagina-web-de-Luisantonio3005/sitemap.xml
+
+# Crawl-delay para ser respetuoso con el servidor
+Crawl-delay: 1
+
+# Reglas específicas para Googlebot
+User-agent: Googlebot
+Allow: /
+Allow: /img/
+Allow: /img/*.png
+Allow: /img/*.jpg
+Allow: /img/*.jpeg
+Allow: /img/*.gif
+Allow: /img/*.webp
+Crawl-delay: 1
+
+# Reglas específicas para Googlebot-Image
+User-agent: Googlebot-Image
+Allow: /
+Allow: /img/
+Allow: /img/*.png
+Allow: /img/*.jpg
+Allow: /img/*.jpeg
+Allow: /img/*.gif
+Allow: /img/*.webp
+Crawl-delay: 1
+
+# Reglas específicas para Bingbot
+User-agent: Bingbot
+Allow: /
+Allow: /img/
+Allow: /img/*.png
+Allow: /img/*.jpg
+Allow: /img/*.jpeg
+Allow: /img/*.gif
+Allow: /img/*.webp
+Crawl-delay: 1
+
+# Reglas para bots de redes sociales
+User-agent: Twitterbot
+Allow: /
+Allow: /img/
+
+User-agent: facebookexternalhit
+Allow: /
+Allow: /img/
+
+User-agent: LinkedInBot
+Allow: /
+Allow: /img/
